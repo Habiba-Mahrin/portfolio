@@ -203,7 +203,7 @@ function App() {
     }
   ];
 
-  const programmingLanguages = ["Python 🐍", "JavaScript", "TypeScript", "C++", "Java", "SQL", "HTML", "CSS", "Assembly", "Dart"];
+  const programmingLanguages = ["Python ", "JavaScript", "TypeScript", "C++", "Java", "SQL", "HTML", "CSS", "Assembly", "Dart"];
   const frontendTech = ["React.js", "Next.js", "Tailwind CSS", "Bootstrap"];
   const backendTech = ["Node.js", "Express.js", "FastAPI", "Spring Boot"];
   const databases = ["PostgreSQL", "MySQL", "MongoDB", "DynamoDB", "Firestore"];
@@ -344,7 +344,7 @@ function App() {
                     </div>
                     <div className="flex items-center gap-3 animate-fade-in-up" style={{animationDelay: '0.4s'}}>
                       <Coffee className="text-mantis-green" size={20} />
-                      <p className={themeClasses.textSecondary}>I love tea and explore different cuisine</p>
+                      <p className={themeClasses.textSecondary}>I’m fluent in two things: brewing the perfect cup of tea and getting lost in new cuisines</p>
                     </div>
                     <div className="flex items-center gap-3 animate-fade-in-up" style={{animationDelay: '0.6s'}}>
                       <Sparkles className="text-mantis-green" size={20} />
